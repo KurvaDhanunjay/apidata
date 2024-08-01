@@ -1,0 +1,63 @@
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("https://unsplash.com/photos/man-in-black-jacket-sitting-beside-black-flat-screen-computer-monitor-rWE7bTqgMJE");
+    background-size: cover;
+    height: 100vh;
+    
+  }
+  
+  .dashboard-container h1 {
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    
+  }
+  
+  .dashboard-container p {
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 10px;
+    }
+  }
+  .logo {
+    width: 50px;
+  }
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(191, 197, 206);
+    border-radius:6px ;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navBar h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  .navBar button {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(110, 110, 239);
+    color: #fff;
+    width: 80px;
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .button {
+    border: 1px solid black;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(110, 110, 239);
+    width: 80px;
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
